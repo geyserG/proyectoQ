@@ -17,16 +17,30 @@ class Escritorio extends CI_Controller {
 	 * map to /index.php/welcome/<method_name>
 	 * @see http://codeigniter.com/user_guide/general/urls.html
 	 */
-	public function index()
+	/*public function index()
 	{
+
 		//$this->load->view('');
 		$this->load->view('cabecra_y_menu.html');
 		$this->load->view('header');
 		$this->load->view('menu');
 		$this->load->view('modulo_cotizaciones');
-		//$this->load->view('modulo_cotizaciones_consulta');
-		$this->load->view('modulo_cotizaciones_nuevo');
+		$this->load->view('modulo_cotizaciones_consulta');
+		//$this->load->view('modulo_cotizaciones_nuevo');
 		//$this->load->view('dashboard_gustavo');
 		
+	}*/
+	public function index($page = 'escritorio')
+	{
+		if(!file_exists('application/views/'.$page.'.php'))
+		{
+			//La pagina solicitada no existe....
+			show_404();
+		}
+
+		$this->load->view('cabecra_y_menu.html');
+		$this->load->view('header');
+		$this->load->view('menu');
+		$this->load->view($page);	
 	}
 }
