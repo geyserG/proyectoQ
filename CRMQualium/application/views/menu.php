@@ -4,7 +4,7 @@
 	<ul id="menu-lista">
 		<li class="">
 			<label class="icono" for="1"><span class="icon-uniF006"></span></label>
-			<a id="1" class="anclaMenu" href="#">
+			<a id="1" class="anclaMenu" href="escritorio">
 				Escritorio
 			</a>
 		</li>
@@ -28,7 +28,7 @@
 		</li>
 		<li class="">
 			<label class="icono" for="5"><span class="icon-calculator"></span></label>
-			<a id="5" class="anclaMenu" href="#">
+			<a id="5" class="anclaMenu" href="modulo_cotizaciones">
 				Cotización
 			</a>
 		</li>

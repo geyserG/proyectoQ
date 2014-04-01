@@ -38,8 +38,11 @@
 |
 */
 
+//$route['default_controller'] = "escritorio";
+//$route['404_override'] = '';
+
 $route['default_controller'] = "escritorio";
-$route['404_override'] = '';
+$route['(:any)'] = 'escritorio/index/$1';
 
 
 /* End of file routes.php */
