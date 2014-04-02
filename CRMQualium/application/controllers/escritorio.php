@@ -41,12 +41,10 @@ class Escritorio extends CI_Controller {
 		$this->load->view('cabecra_y_menu.html');
 		$this->load->view('header');
 		$this->load->view('menu');
-<<<<<<< HEAD
-=======
+
 		//$this->load->view('modulo_Clientes');
 		//$this->load->view('modulo_cliente_nuevo');
 		//$this->load->view('modulo_cotizaciones');
->>>>>>> 25ea2aaa1543ddb1ab87c93c475996993f87bc41
 		$this->load->view($page);	
 	}
 }
