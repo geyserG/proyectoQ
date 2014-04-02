@@ -30,9 +30,7 @@
     						<li><a href="#">Cliente</a></li>
     						<li><a href="#">Prospectos</a></li>
   				    	</ul>
-			        </li>	
-
-			        
+			        </li>	      
 			     </ul>
 		  </nav>
 		  
