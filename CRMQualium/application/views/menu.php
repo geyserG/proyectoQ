@@ -10,7 +10,7 @@
 		</li>
 		<li class="">
 			<label class="icono" for="2"><span class="icon-phpbb"></span></label>
-			<a id="2" class="anclaMenu" href="#">
+			<a id="2" class="anclaMenu" href="modulo_Clientes">
 				Clientes
 			</a>
 		</li>
