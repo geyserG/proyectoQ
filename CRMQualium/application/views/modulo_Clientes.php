@@ -1,6 +1,7 @@
-<div id="contenedor">
+<div class="contenedor_modulo"> 
+<!-- <div id="contenedor"> -->
 	<section>
-		<h1 id="titulo_del_modulo">Clientes</h1>
+		<h1 id="titulo_del_modulo"><label>Clientes</label></h1>
 		   <nav>
 				<ul id="menu_modulo" class="nav nav-pills">
 					<li>
@@ -29,22 +30,14 @@
 		   		    	<ul id="prueba" class="dropdown-menu" role="menu">
     						<li><a href="modulo_cliente_nuevo">Cliente</a></li>
     						<li><a href="#">Prospectos</a></li>
-<<<<<<< HEAD
   				        </ul>
-=======
   				    	</ul>
 
 			        </li>	      
 			     </ul>
-<<<<<<< HEAD
-
-=======
-=======
->>>>>>> 25ea2aaa1543ddb1ab87c93c475996993f87bc41
->>>>>>> 20b478120423872078a2afed629da77ee78303ee
 			        </li>
 			   </ul>
 		  </nav>
 		  
 	</section>
-<section id="form_nuevo_cliente"> 
+<section class="contenedor_principal_modulos"> 

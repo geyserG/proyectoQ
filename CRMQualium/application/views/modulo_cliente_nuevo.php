@@ -1,6 +1,7 @@
-<div id="contenedor">
+<!-- <div id="contenedor"> -->
+<div class="contenedor_modulo"> 
   <section>
-    <h1 id="titulo_del_modulo">Clientes</h1>
+    <h1 id="titulo_del_modulo"><label>Clientes</label></h1>
        <nav>
         <ul id="menu_modulo" class="nav nav-pills">
           <li>
@@ -39,34 +40,34 @@
       </nav>
       
   </section>
-<section id="form_nuevo_cliente"> 
-<h3>Nuevo Cliente</h3>
-<hr>
+  <section class="contenedor_principal_modulos">
+    <h3>Nuevo Cliente</h3>
+  <hr>
   <div class="input_info">
-	   <input type="text"  class="form-control" placeholder="Nombre comercial">
-	   <input type="text" class="form-control" placeholder="Nombre físcal">
-	   <input type="text" class="form-control" placeholder="Email">
-	   <input type="text" class="form-control" placeholder="Telefono movil">
+     <input type="text"  class="form-control" placeholder="Nombre comercial">
+     <input type="text" class="form-control" placeholder="Nombre físcal">
+     <input type="text" class="form-control" placeholder="Email">
+     <input type="text" class="form-control" placeholder="Telefono movil">
   </div>
     
-	<div class="input_info">
-	   <select  class= "form-control" > 
-  	 <option value="" disabled selected style='display:none;'>Giro</option> 
-  	 <option> Manufacturera </option> 
-  	 <option> Agropecuaria </option> 
-  	 <option> Comercial </option> 
-  	 <option> Transporte </option> 
-  	 <option> Educación </option> 
-  	 <option> Servicios públicos </option>
-  	 <option> Salud </option> 
-  	 <option> Comunicación </option>  
+  <div class="input_info">
+     <select  class= "form-control" > 
+     <option value="" disabled selected style='display:none;'>Giro</option> 
+     <option> Manufacturera </option> 
+     <option> Agropecuaria </option> 
+     <option> Comercial </option> 
+     <option> Transporte </option> 
+     <option> Educación </option> 
+     <option> Servicios públicos </option>
+     <option> Salud </option> 
+     <option> Comunicación </option>  
      </select>
      <textarea id="txtarea" class="form-control" rows="3" placeholder="Dirección"></textarea>
      <input type="text" class="form-control" placeholder="Telefono de oficina">
   </div>
 
   <div class="desborde"></div>
-	   <div id='contenedor_menus'>
+     <div id='contenedor_menus'>
           <div class='cssmenu'>
               <h5><b> Servicios de interes</b></h5>
               <input type="text" id="ancho_input1" class="form-control" placeholder="Buscar servicio">
@@ -144,10 +145,10 @@
                     <button type="button" id="btn_agregar2" class="btn btn-default">Agregar</button>
                 <ul>
                     <li><a href=''><span>Servicios</span></a></li>
-   		              <li class='has-sub'><a href='#'><span>Diseño Gráfico</span></a>
+                    <li class='has-sub'><a href='#'><span>Diseño Gráfico</span></a>
                   <ul>
-	                   <li><a ><span>Tarjeta de presentación frente</span>
-		                 <div id='check_posicion'><input type='checkbox' id='' value='1'></div></a></li>
+                     <li><a ><span>Tarjeta de presentación frente</span>
+                     <div id='check_posicion'><input type='checkbox' id='' value='1'></div></a></li>
                      <li><a><span>Medallón</span>
                      <div id='check_posicion'><input type='checkbox' id='' value='1'></div></a></li>
                      <li><a><span>Tríptico</span>
@@ -207,7 +208,7 @@
                            <div id='check_posicion'><input type='checkbox' id='' value='1'></div></a></li>
                        </ul>
                       </li>
-  	              </ul>
+                  </ul>
              </div>
         </div>
         <div class="desborde"></div>
@@ -220,25 +221,26 @@
         <br>
         
         <div class="dato_contacto">
-	         <h3>Datos Específicos</h3>
-	         <hr width="300px";>
-	         <input type="text"  class="form-control" placeholder="RFC">
-	         <input type="text"  class="form-control" placeholder="Representante">
-	         <input type="text"  class="form-control" placeholder="Página web">
+           <h3>Datos Específicos</h3>
+           <hr width="300px";>
+           <input type="text"  class="form-control" placeholder="RFC">
+           <input type="text"  class="form-control" placeholder="Representante">
+           <input type="text"  class="form-control" placeholder="Página web">
        </div>
-  
+
        <div class="dato_contacto">
-	         <h3>Datos contacto</h3>
-	         <hr width="300px";>
-	         <input type="text"  class="form-control" placeholder="Nombre">
-	         <input type="text"  class="form-control" placeholder="Correo">
-	         <input type="text"  class="form-control" placeholder="Cargo">
-	         <input type="text"  class="form-control" placeholder="Telefono">
+           <h3>Datos contacto</h3>
+           <hr width="300px";>
+           <input type="text"  class="form-control" placeholder="Nombre">
+           <input type="text"  class="form-control" placeholder="Correo">
+           <input type="text"  class="form-control" placeholder="Cargo">
+           <input type="text"  class="form-control" placeholder="Telefono">
        </div>
        <div class="desborde"></div>
- 
+
       <button type="button" class="btn btn-primary">Aceptar</button>
       <button type="button" class="btn btn-danger">Cancelar</button>
+  </section>
 
-	</section>
 </div>
+<!-- </div> -->

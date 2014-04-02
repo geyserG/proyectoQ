@@ -1,5 +1,5 @@
-	<div id="contenido_modulo_cotizacion">
-		<section id="cabecera_modulo">
+	<div class="contenedor_modulo">
+		<section>
 			<h1 id="titulo_del_modulo"><label>Cotizaciones</label></h1>
 			<nav>
 				<ul id="menu_modulo" class="nav nav-pills">
@@ -22,7 +22,7 @@
 				</ul>
 			</nav>
 		</section>
-		<section id="formulario_nueva_cotizacion">
+		<section class="contenedor_principal_modulos">
 
 			<h3>Información Básica</h3>
 			<hr>
