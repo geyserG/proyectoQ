@@ -4,14 +4,14 @@
 		   <nav>
 				<ul id="menu_modulo" class="nav nav-pills">
 					<li>
-						<a href="#">
+						<a href="modulo_cliente_nuevo">
 						<div class="icono_menu_modulo">
 						<span class="icon-contact"></span></div>
 						Prospectos
 			            </a>
 					</li>
 		  			<li>
-						<a href="#">
+						<a href="">
 						<div class="icono_menu_modulo">
 						<span class="icon-phpbb"></span>
 					    </div>
@@ -20,7 +20,7 @@
 					</li> 
          			
          			<li class="dropdown">
-					    	<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+					    	<a href="modulo_cliente_nuevo" class="dropdown-toggle" data-toggle="dropdown">
 								<div class="icono_menu_modulo">
 								<span class="icon-uniF476"></span>
 								</div>
