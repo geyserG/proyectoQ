@@ -30,13 +30,12 @@
     						<li><a href="modulo_cliente_nuevo">Cliente</a></li>
     						<li><a href="#">Prospectos</a></li>
   				    	</ul>
-<<<<<<< HEAD
+
 			        </li>	      
 			     </ul>
-=======
+
 			        </li>
 			   </ul>
->>>>>>> e4546416069e7e88cb5c959d13515d4b7563ad0f
 		  </nav>
 		  
 	</section>
