@@ -238,7 +238,7 @@
 			<button type="button" class="btn btn-default">Agregar servicios</button>
 			<br><br>
 
-			<table id="servicios_cotizados" class="table table-striped">
+			<table id="tabla_cotizaciones" class="table table-striped">
 				<tr>
 					<th>Todos<input type="checkbox"></th>
 					<th>Servicio</th>
@@ -257,7 +257,7 @@
 					<td>$12,000</td>
 					<td>0%</td>
 					<td>$12,000</td>
-					<td>
+					<td class="iconos-operaciones">
 						<span class="icon-uniF470"></span><span class="icon-uniF756"></span>
 					</td>
 				</tr>
@@ -269,7 +269,7 @@
 					<td>$12,000</td>
 					<td>0%</td>
 					<td>$12,000</td>
-					<td>
+					<td class="iconos-operaciones">
 						<span class="icon-uniF470"></span><span class="icon-uniF756"></span>
 					</td>
 				</tr>
@@ -281,7 +281,7 @@
 					<td><input type="text" value="$12,000"></td>
 					<td><input type="text" value="0%"></td>
 					<td><input type="text" value="$12,000"></td>
-					<td>
+					<td class="iconos-operaciones">
 						<span class="icon-uniF470"></span><span class="icon-uniF756"></span>
 					</td>
 				</tr>
@@ -293,7 +293,7 @@
 					<td>$12,000</td>
 					<td>0%</td>
 					<td>$12,000</td>
-					<td>
+					<td class="iconos-operaciones">
 						<span class="icon-uniF470"></span><span class="icon-uniF756"></span>
 					</td>
 				</tr>
@@ -305,7 +305,7 @@
 					<td>$12,000</td>
 					<td>0%</td>
 					<td>$12,000</td>
-					<td>
+					<td class="iconos-operaciones">
 						<span class="icon-uniF470"></span><span class="icon-uniF756"></span>
 					</td>
 				</tr>
