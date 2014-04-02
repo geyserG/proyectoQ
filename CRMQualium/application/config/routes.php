@@ -38,9 +38,14 @@
 |
 */
 
+<<<<<<< HEAD
 //$route['default_controller'] = "escritorio";
 //$route['404_override'] = '';
 
+=======
+/*$route['default_controller'] = "escritorio";
+$route['404_override'] = '';*/ //Comentado por sugerencia de BETO
+>>>>>>> 28af385c7042a65b2d8e4675058722cf16e64473
 $route['default_controller'] = "escritorio";
 $route['(:any)'] = 'escritorio/index/$1';
 

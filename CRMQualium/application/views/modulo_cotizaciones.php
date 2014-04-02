@@ -5,7 +5,11 @@
 			<nav>
 				<ul id="menu_modulo" class="nav nav-pills">
 					<li>
+<<<<<<< HEAD
 						<a href="modulo_cotizaciones">
+=======
+						<a href="modulo_cotizaciones_consulta">
+>>>>>>> 28af385c7042a65b2d8e4675058722cf16e64473
 							<div class="icono_menu_modulo">
 								<span class="icon-rawaccesslogs"></span>
 							</div>
