@@ -29,9 +29,18 @@
 		   		    	<ul id="prueba" class="dropdown-menu" role="menu">
     						<li><a href="modulo_cliente_nuevo">Cliente</a></li>
     						<li><a href="#">Prospectos</a></li>
+<<<<<<< HEAD
   				        </ul>
+=======
+  				    	</ul>
+<<<<<<< HEAD
+			        </li>	      
+			     </ul>
+=======
+>>>>>>> 25ea2aaa1543ddb1ab87c93c475996993f87bc41
 			        </li>
 			   </ul>
+>>>>>>> e4546416069e7e88cb5c959d13515d4b7563ad0f
 		  </nav>
 		  
 	</section>
