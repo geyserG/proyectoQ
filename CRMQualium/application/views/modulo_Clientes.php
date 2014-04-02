@@ -4,7 +4,7 @@
 		   <nav>
 				<ul id="menu_modulo" class="nav nav-pills">
 					<li>
-						<a href="modulo_cliente_nuevo">
+						<a href="">
 						<div class="icono_menu_modulo">
 						<span class="icon-contact"></span></div>
 						Prospectos
@@ -19,21 +19,31 @@
 				        </a>
 					</li> 
          			
-         			<li class="dropdown">
-					    	<a href="modulo_cliente_nuevo" class="dropdown-toggle" data-toggle="dropdown">
+         			<li  class="dropdown">
+					    	<a href= class="dropdown-toggle" data-toggle="dropdown">
 								<div class="icono_menu_modulo">
 								<span class="icon-uniF476"></span>
 								</div>
 								Nuevo
 							</a>
 		   		    	<ul id="prueba" class="dropdown-menu" role="menu">
-    						<li><a href="#">Cliente</a></li>
+    						<li><a href="modulo_cliente_nuevo">Cliente</a></li>
     						<li><a href="#">Prospectos</a></li>
+<<<<<<< HEAD
+  				        </ul>
+=======
   				    	</ul>
-			        </li>	
 
-			        
+			        </li>	      
 			     </ul>
+<<<<<<< HEAD
+
+=======
+=======
+>>>>>>> 25ea2aaa1543ddb1ab87c93c475996993f87bc41
+>>>>>>> 20b478120423872078a2afed629da77ee78303ee
+			        </li>
+			   </ul>
 		  </nav>
 		  
 	</section>
