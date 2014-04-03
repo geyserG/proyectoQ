@@ -1,4 +1,5 @@
 <!-- <div id="contenedor"> -->
+<!-- prueba de sincronizacion git hub-->
 <div class="contenedor_modulo"> 
     <section>
         <h1 id="titulo_del_modulo"><label>Clientes</label></h1>
