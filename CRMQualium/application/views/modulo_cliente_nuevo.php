@@ -20,17 +20,14 @@
                       Clientes
                     </a>
                 </li>  
-                <li id="tamaño" class="dropdown">
-                    <a href= class="dropdown-toggle" data-toggle="dropdown">
+                <li >
+                    <a href="modulo_cliente_nuevo">
                       <div class="icono_menu_modulo">
                         <span class="icon-uniF476"></span>
                       </div>
                       Nuevo
                     </a>
-                    <ul id="prueba" class="dropdown-menu" role="menu">
-                        <li><a href="modulo_cliente_nuevo">Cliente</a></li>
-                        <li><a href="#">Prospectos</a></li>
-                    </ul>
+                    
                 </li>       
             </ul>
         </nav>   
