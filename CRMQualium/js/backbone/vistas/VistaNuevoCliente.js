@@ -7,7 +7,8 @@
 		el		: '.contenedor_modulo',
 		
 		events	: {
-			'change .tipo_cliente'	: 'setTipoCliente'
+			'change .tipo_cliente'	: 'setTipoCliente',
+			'click	#btn_otro_telefono'	: 'nuevoElementoDeFormulario'
 		},
 
 		initialize		: function () {
@@ -31,6 +32,9 @@
 			this.$correoContacto;
 			this.$cargoContacto;
 			this.$telefonosContacto; //Puede ser un array de telefonos y tipos
+
+		this.$colInfoBasica1 = $('#col_info_basica_1');
+		this.$formTelefonos = $('.input_info .btn-group-justified');
 		},
 
 		render			: function () {
@@ -43,6 +47,13 @@
 			  el valor del elemento seleccionado; en este
 			  caso el TIPO de cliente a registrar*/
 			console.log($(elemento.currentTarget).val());
+		},
+
+		nuevoElementoDeFormulario	: function () {
+			// console.log(this.$colInfoBasica1);
+			// console.log(this.$formTelefonos);
+			this.$colInfoBasica1.append(this.$formTelefonos.html());
+			// this.$colInfoBasica1.append(this.$formTelefonos);
 		}
 	});
 

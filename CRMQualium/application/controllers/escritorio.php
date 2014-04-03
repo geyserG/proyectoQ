@@ -13,9 +13,6 @@ class Escritorio extends CI_Controller {
 		$this->load->view('cabecra_y_menu.html');
 		$this->load->view('header');
 		$this->load->view('menu');
-<<<<<<< HEAD
 		$this->load->view($page);	
-=======
->>>>>>> be2c0f8283c04dedc269ee0ff9ac2ea73114517f
 	}
 }

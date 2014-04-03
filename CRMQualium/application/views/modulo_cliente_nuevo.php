@@ -46,7 +46,7 @@
 
         <br>
 
-        <div class="input_info">
+        <div id="col_info_basica_1" class="input_info">
             <input type="text"  class="form-control" placeholder="Nombre comercial">
             <input type="text" class="form-control" placeholder="Nombre físcal">
             <input type="text" class="form-control" placeholder="Email">
@@ -54,7 +54,7 @@
 
             <!-- Este es el pequeño formulario para registrar teléfonos -->
               <div class="btn-group btn-group-justified">
-                  <div id="div_telefonos" class="btn-group">
+                  <div class="btn-group">
                       <input type="text" class="form-control">
                   </div>
                   <div class="btn-group">
@@ -275,6 +275,7 @@
 <!-- Librerias Backbone -->
   <script type="text/javascript" src="js/backbone/lib/underscore.js"></script>
   <script type="text/javascript" src="js/backbone/lib/backbone.js"></script>
+  <script type="text/javascript" src="js/backbone/lib/backbone.localStorage.js"></script>
 <!--MV*-->
   <script type="text/javascript" src="js/backbone/vistas/VistaNuevoCliente.js"></script>
   <script type="text/javascript" src="js/backbone/app.js"></script>
