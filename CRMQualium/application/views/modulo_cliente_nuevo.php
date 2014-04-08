@@ -105,144 +105,223 @@
                   <h5><b> Servicios de interes</b></h5>
                   <input type="text" id="ancho_input1" class="form-control" placeholder="Buscar servicio">
                   <button type="button" id="btn_agregar"class="btn btn-default">Agregar</button>
+                  <ul>
+                      <li><a href=''><span>Servicios</span></a></li>
+                      <li class='has-sub'>
+                          <a href='#'><span>Diseño Gráfico</span></a>
+                          <ul>
+                              <li>
+                                  <a>
+                                      <span>Tarjeta de presentación frente</span>
+                                      <div id='check_posicion'>
+                                          <input type='checkbox' class="serviciosInteres" name="serviciosInteres" id='' value='1'>
+                                      </div>
+                                  </a>
+                              </li>
+                              <li>
+                                  <a>
+                                      <span>Medallón</span>
+                                      <div id='check_posicion'>
+                                          <input type='checkbox' class="serviciosInteres" name="serviciosInteres" id='' value='2'>
+                                      </div>
+                                  </a>
+                              </li>
+                              <li>
+                                  <a>
+                                      <span>Tríptico</span>
+                                      <div id='check_posicion'>
+                                          <input type='checkbox' class="serviciosInteres" name="serviciosInteres" id='' value='3'>
+                                      </div>
+                                  </a>
+                              </li>
+                              <li>
+                                  <a>
+                                      <span>Díptico</span>
+                                      <div id='check_posicion'>
+                                          <input type='checkbox' class="serviciosInteres" name="serviciosInteres" id='' value='4'>
+                                      </div>
+                                  </a>
+                              </li>
+                              <li>
+                                  <a>
+                                      <span>Catálogo</span>
+                                      <div id='check_posicion'>
+                                          <input type='checkbox' class="serviciosInteres" name="serviciosInteres" id='' value='5'>
+                                      </div>
+                                  </a>
+                              </li>
+                              <li>
+                                  <a>
+                                      <span>Tarjeta de presentación frente y vuelta</span>
+                                      <div id='check_posicion'>
+                                          <input type='checkbox' class="serviciosInteres" name="serviciosInteres" id='' value='6'>
+                                      </div>
+                                  </a>
+                              </li>
+                              <li>
+                                  <a>
+                                      <span>Anuncio sencillo</span>
+                                      <div id='check_posicion'>
+                                          <input type='checkbox' class="serviciosInteres" name="serviciosInteres" id='' value='7'>
+                                      </div>
+                                  </a>
+                              </li>
+                              <li>
+                                  <a>
+                                      <span>Menú de restaurante</span>
+                                      <div id='check_posicion'>
+                                          <input type='checkbox' class="serviciosInteres" name="serviciosInteres" id='' value='8'>
+                                      </div>
+                                  </a>
+                              </li>
+                              <li>
+                                  <a>
+                                      <span>Branding completo</span>
+                                      <div id='check_posicion'>
+                                          <input type='checkbox' class="serviciosInteres" name="serviciosInteres" id='' value='9'>
+                                      </div>
+                                  </a>
+                              </li>
+                              <li>
+                                  <a>
+                                      <span>Logo animado</span>
+                                      <div id='check_posicion'>
+                                          <input type='checkbox' class="serviciosInteres" name="serviciosInteres" id='' value='10'>
+                                      </div>
+                                  </a>
+                              </li>
+                              <li>
+                                  <a>
+                                      <span>Vídeo branding</span>
+                                      <div id='check_posicion'>
+                                          <input type='checkbox' class="serviciosInteres" name="serviciosInteres" id='' value='11'>
+                                      </div>
+                                  </a>
+                              </li>
+                              <li>
+                                  <a>
+                                      <span>Campaña</span>
+                                      <div id='check_posicion'>
+                                          <input type='checkbox' class="serviciosInteres" name="serviciosInteres" id='' value='12'>
+                                      </div>
+                                  </a>
+                              </li>
+                              <li>
+                                  <a>
+                                      <span>Aplicaciones de campaña</span>
+                                      <div id='check_posicion'>
+                                          <input type='checkbox' class="serviciosInteres" name="serviciosInteres" id='' value='13'>
+                                      </div>
+                                  </a>
+                              </li>
+                          </ul>
+                      </li>
+                      <li class='has-sub'><a href='#'><span>Programación</span></a>
+                        <ul>
+                            <li><a href='#'><span>Página web sencilla</span>
+                            <div id='check_posicion'><input type='checkbox' class="serviciosInteres" name="serviciosInteres" id='' value='1'></div></a></li>
+                            <li><a href='#'><span>Página Web complicada
+                            (Mas de 5 secciones)</span>
+                            <div id='check_posicion'><input type='checkbox' class="serviciosInteres" name="serviciosInteres" id='' value='1'></div></a></li>
+                            <li><a href='#'><span>Página Web con sistema interno</span>
+                            <div id='check_posicion'><input type='checkbox' class="serviciosInteres" name="serviciosInteres" id='' value='1'></div></a></li>
+                            <li><a href='#'><span>App sencilla</span>
+                            <div id='check_posicion'><input type='checkbox' class="serviciosInteres" name="serviciosInteres" id='' value='1'></div></a></li>
+                            <li><a href='#'><span>App complicada</span>
+                            <div id='check_posicion'><input type='checkbox' class="serviciosInteres" name="serviciosInteres" id='' value='1'></div></a></li>
+                            <li><a href='#'><span>Sistema de ventas</span>
+                            <div id='check_posicion'><input type='checkbox' class="serviciosInteres" name="serviciosInteres" id='' value='1'></div></a></li>
+                            <li><a href='#'><span>Rediseño página web</span>
+                            <div id='check_posicion'><input type='checkbox' class="serviciosInteres" name="serviciosInteres" id='' value='1'></div></a></li>
+                        </ul>
+                      </li>
+                      <li class='has-sub'><a href='#'><span>Video</span></a>
+                          <ul>
+                              <li><a href='#'><span>Comercial video</span>
+                              <div id='check_posicion'><input type='checkbox' class="serviciosInteres" name="serviciosInteres" id='' value='1'></div></a></li>
+                          </ul>
+                      </li>
+                      <li class='has-sub'><a href='#'><span>Otros</span></a>
+                          <ul>
+                              <li><a href='#'><span>Redes sociales</span>
+                              <div id='check_posicion'><input type='checkbox' class="serviciosInteres" name="serviciosInteres" id='' value='1'></div></a></li>
+                              <li><a href='#'><span>Mailing</span>
+                              <div id='check_posicion'><input type='checkbox' class="serviciosInteres" name="serviciosInteres" id='' value='1'></div></a></li>
+                          </ul>
+                      </li>    
+                  </ul>
+             </div>
+            <div class='cssmenu'>
+                  <h5><b>Servicios con los que cuenta</b> </h5>
+                  <input type="text" id="ancho_input2" class="form-control" placeholder="Buscar servicio">
+                  <button type="button" id="btn_agregar2" class="btn btn-default">Agregar</button>
               <ul>
                   <li><a href=''><span>Servicios</span></a></li>
                   <li class='has-sub'><a href='#'><span>Diseño Gráfico</span></a>
-              <ul>
-                  <li><a><span>Tarjeta de presentación frente</span>
-                    <div id='check_posicion'><input type='checkbox' name="serviciosInteres" id='' value='1'></div></a></li>
-                  <li><a><span>Medallón</span>
-                    <div id='check_posicion'><input type='checkbox' name="serviciosInteres" id='' value='2'></div></a></li>
-                  <li><a><span>Tríptico</span>
-                    <div id='check_posicion'><input type='checkbox' name="serviciosInteres" id='' value='3'></div></a></li>
-                  <li><a><span>Díptico</span>
-                    <div id='check_posicion'><input type='checkbox' name="serviciosInteres" id='' value='4'></div></a></li>
-                  <li><a><span>Catálogo</span>
-                    <div id='check_posicion'><input type='checkbox' name="serviciosInteres" id='' value='5'></div></a></li>
-                  <li><a><span>Tarjeta de presentación frente y vuelta</span>
-                    <div id='check_posicion'><input type='checkbox' name="serviciosInteres" id='' value='6'></div></a></li>
-                  <li><a><span>Anuncio sencillo</span>
-                    <div id='check_posicion'><input type='checkbox' name="serviciosInteres" id='' value='7'></div></a></li>
-                  <li><a><span>Menú de restaurante</span>
-                    <div id='check_posicion'><input type='checkbox' name="serviciosInteres" id='' value='8'></div></a></li>
-                  <li><a><span>Branding completo</span>
-                    <div id='check_posicion'><input type='checkbox' name="serviciosInteres" id='' value='9'></div></a></li>
-                  <li><a><span>Logo animado</span>
-                    <div id='check_posicion'><input type='checkbox' name="serviciosInteres" id='' value='10'></div></a></li>
-                  <li><a><span>Vídeo branding</span>
-                    <div id='check_posicion'><input type='checkbox' name="serviciosInteres" id='' value='11'></div></a></li>
-                  <li><a><span>Campaña</span>
-                    <div id='check_posicion'><input type='checkbox' name="serviciosInteres" id='' value='12'></div></a></li>
-                  <li><a><span>Aplicaciones de campaña</span>
-                    <div id='check_posicion'><input type='checkbox' name="serviciosInteres" id='' value='13'></div></a></li>
+                <ul>
+                   <li><a ><span>Tarjeta de presentación frente</span>
+                   <div id='check_posicion'><input type='checkbox' name="serviciosCuenta" id='' value='1'></div></a></li>
+                   <li><a><span>Medallón</span>
+                   <div id='check_posicion'><input type='checkbox' name="serviciosCuenta" id='' value='1'></div></a></li>
+                   <li><a><span>Tríptico</span>
+                   <div id='check_posicion'><input type='checkbox' name="serviciosCuenta" id='' value='1'></div></a></li>
+                   <li><a><span>Díptico</span>
+                   <div id='check_posicion'><input type='checkbox' name="serviciosCuenta" id='' value='1'></div></a></li>
+                   <li><a><span>Catálogo</span>
+                   <div id='check_posicion'><input type='checkbox' name="serviciosCuenta" id='' value='1'></div></a></li>
+                   <li><a><span>Tarjeta de presentación frente y vuelta</span>
+                   <div id='check_posicion'><input type='checkbox' name="serviciosCuenta" id='' value='1'></div></a></li>
+                   <li><a><span>Anuncio sencillo</span>
+                   <div id='check_posicion'><input type='checkbox' name="serviciosCuenta" id='' value='1'></div></a></li>
+                   <li><a><span>Menú de restaurante</span>
+                   <div id='check_posicion'><input type='checkbox' name="serviciosCuenta" id='' value='1'></div></a></li>
+                   <li><a><span>Branding completo</span>
+                   <div id='check_posicion'><input type='checkbox' name="serviciosCuenta" id='' value='1'></div></a></li>
+                   <li><a><span>Logo animado</span>
+                   <div id='check_posicion'><input type='checkbox' name="serviciosCuenta" id='' value='1'></div></a></li>
+                   <li><a><span>Vídeo branding</span>
+                   <div id='check_posicion'><input type='checkbox' name="serviciosCuenta" id='' value='1'></div></a></li>
+                   <li><a><span>Campaña</span>
+                   <div id='check_posicion'><input type='checkbox' name="serviciosCuenta" id='' value='1'></div></a></li>
+                   <li><a><span>Aplicaciones de campaña</span>
+                   <div id='check_posicion'><input type='checkbox' name="serviciosCuenta" id='' value='1'></div></a></li>
               </ul>
+              </li>
+            <li class='has-sub'><a href='#'><span>Programación</span></a>
+               <ul>
+                  <li><a href='#'><span>Página web sencilla</span>
+                  <div id='check_posicion'><input type='checkbox' name="serviciosCuenta" id='' value='1'></div></a></li>
+                  <li><a href='#'><span>Página Web complicada
+                  (Mas de 5 secciones)</span>
+                  <div id='check_posicion'><input type='checkbox' name="serviciosCuenta" id='' value='1'></div></a></li>
+                  <li><a href='#'><span>Página Web con sistema interno</span>
+                  <div id='check_posicion'><input type='checkbox' name="serviciosCuenta" id='' value='1'></div></a></li>
+                  <li><a href='#'><span>App sencilla</span>
+                  <div id='check_posicion'><input type='checkbox' name="serviciosCuenta" id='' value='1'></div></a></li>
+                  <li><a href='#'><span>App complicada</span>
+                  <div id='check_posicion'><input type='checkbox' name="serviciosCuenta" id='' value='1'></div></a></li>
+                  <li><a href='#'><span>Sistema de ventas</span>
+                  <div id='check_posicion'><input type='checkbox' name="serviciosCuenta" id='' value='1'></div></a></li>
+                  <li><a href='#'><span>Rediseño página web</span>
+                  <div id='check_posicion'><input type='checkbox' name="serviciosCuenta" id='' value='1'></div></a></li>
+              </ul>
+            </li>
+              <li class='has-sub'><a href='#'><span>Video</span></a>
+               <ul>
+                  <li><a href='#'><span>Comercial video</span>
+                  <div id='check_posicion'><input type='checkbox' name="serviciosCuenta" id='' value='1'></div></a></li>
+              </ul> 
                   </li>
-                    <li class='has-sub'><a href='#'><span>Programación</span></a>
-                      <ul>
-                          <li><a href='#'><span>Página web sencilla</span>
-                          <div id='check_posicion'><input type='checkbox' name="serviciosInteres" id='' value='1'></div></a></li>
-                          <li><a href='#'><span>Página Web complicada
-                          (Mas de 5 secciones)</span>
-                          <div id='check_posicion'><input type='checkbox' name="serviciosInteres" id='' value='1'></div></a></li>
-                          <li><a href='#'><span>Página Web con sistema interno</span>
-                          <div id='check_posicion'><input type='checkbox' name="serviciosInteres" id='' value='1'></div></a></li>
-                          <li><a href='#'><span>App sencilla</span>
-                          <div id='check_posicion'><input type='checkbox' name="serviciosInteres" id='' value='1'></div></a></li>
-                          <li><a href='#'><span>App complicada</span>
-                          <div id='check_posicion'><input type='checkbox' name="serviciosInteres" id='' value='1'></div></a></li>
-                          <li><a href='#'><span>Sistema de ventas</span>
-                          <div id='check_posicion'><input type='checkbox' name="serviciosInteres" id='' value='1'></div></a></li>
-                          <li><a href='#'><span>Rediseño página web</span>
-                          <div id='check_posicion'><input type='checkbox' name="serviciosInteres" id='' value='1'></div></a></li>
-                      </ul>
-                    </li>
-                    <li class='has-sub'><a href='#'><span>Video</span></a>
-                        <ul>
-                            <li><a href='#'><span>Comercial video</span>
-                            <div id='check_posicion'><input type='checkbox' name="serviciosInteres" id='' value='1'></div></a></li>
-                        </ul>
-                    </li>
                     <li class='has-sub'><a href='#'><span>Otros</span></a>
-                        <ul>
-                            <li><a href='#'><span>Redes sociales</span>
-                            <div id='check_posicion'><input type='checkbox' name="serviciosInteres" id='' value='1'></div></a></li>
-                            <li><a href='#'><span>Mailing</span>
-                            <div id='check_posicion'><input type='checkbox' name="serviciosInteres" id='' value='1'></div></a></li>
-                        </ul>
-                   </li>
-                  </ul>
-             </div>
-                  <div class='cssmenu'>
-                        <h5><b>Servicios con los que cuenta</b> </h5>
-                        <input type="text" id="ancho_input2" class="form-control" placeholder="Buscar servicio">
-                        <button type="button" id="btn_agregar2" class="btn btn-default">Agregar</button>
-                    <ul>
-                        <li><a href=''><span>Servicios</span></a></li>
-                        <li class='has-sub'><a href='#'><span>Diseño Gráfico</span></a>
                       <ul>
-                         <li><a ><span>Tarjeta de presentación frente</span>
+                         <li><a href='#'><span>Redes sociales</span>
                          <div id='check_posicion'><input type='checkbox' name="serviciosCuenta" id='' value='1'></div></a></li>
-                         <li><a><span>Medallón</span>
+                         <li><a href='#'><span>Mailing</span>
                          <div id='check_posicion'><input type='checkbox' name="serviciosCuenta" id='' value='1'></div></a></li>
-                         <li><a><span>Tríptico</span>
-                         <div id='check_posicion'><input type='checkbox' name="serviciosCuenta" id='' value='1'></div></a></li>
-                         <li><a><span>Díptico</span>
-                         <div id='check_posicion'><input type='checkbox' name="serviciosCuenta" id='' value='1'></div></a></li>
-                         <li><a><span>Catálogo</span>
-                         <div id='check_posicion'><input type='checkbox' name="serviciosCuenta" id='' value='1'></div></a></li>
-                         <li><a><span>Tarjeta de presentación frente y vuelta</span>
-                         <div id='check_posicion'><input type='checkbox' name="serviciosCuenta" id='' value='1'></div></a></li>
-                         <li><a><span>Anuncio sencillo</span>
-                         <div id='check_posicion'><input type='checkbox' name="serviciosCuenta" id='' value='1'></div></a></li>
-                         <li><a><span>Menú de restaurante</span>
-                         <div id='check_posicion'><input type='checkbox' name="serviciosCuenta" id='' value='1'></div></a></li>
-                         <li><a><span>Branding completo</span>
-                         <div id='check_posicion'><input type='checkbox' name="serviciosCuenta" id='' value='1'></div></a></li>
-                         <li><a><span>Logo animado</span>
-                         <div id='check_posicion'><input type='checkbox' name="serviciosCuenta" id='' value='1'></div></a></li>
-                         <li><a><span>Vídeo branding</span>
-                         <div id='check_posicion'><input type='checkbox' name="serviciosCuenta" id='' value='1'></div></a></li>
-                         <li><a><span>Campaña</span>
-                         <div id='check_posicion'><input type='checkbox' name="serviciosCuenta" id='' value='1'></div></a></li>
-                         <li><a><span>Aplicaciones de campaña</span>
-                         <div id='check_posicion'><input type='checkbox' name="serviciosCuenta" id='' value='1'></div></a></li>
-                    </ul>
-                </li>
-                  <li class='has-sub'><a href='#'><span>Programación</span></a>
-                     <ul>
-                        <li><a href='#'><span>Página web sencilla</span>
-                        <div id='check_posicion'><input type='checkbox' name="serviciosCuenta" id='' value='1'></div></a></li>
-                        <li><a href='#'><span>Página Web complicada
-                        (Mas de 5 secciones)</span>
-                        <div id='check_posicion'><input type='checkbox' name="serviciosCuenta" id='' value='1'></div></a></li>
-                        <li><a href='#'><span>Página Web con sistema interno</span>
-                        <div id='check_posicion'><input type='checkbox' name="serviciosCuenta" id='' value='1'></div></a></li>
-                        <li><a href='#'><span>App sencilla</span>
-                        <div id='check_posicion'><input type='checkbox' name="serviciosCuenta" id='' value='1'></div></a></li>
-                        <li><a href='#'><span>App complicada</span>
-                        <div id='check_posicion'><input type='checkbox' name="serviciosCuenta" id='' value='1'></div></a></li>
-                        <li><a href='#'><span>Sistema de ventas</span>
-                        <div id='check_posicion'><input type='checkbox' name="serviciosCuenta" id='' value='1'></div></a></li>
-                        <li><a href='#'><span>Rediseño página web</span>
-                        <div id='check_posicion'><input type='checkbox' name="serviciosCuenta" id='' value='1'></div></a></li>
-                    </ul>
-                  </li>
-                    <li class='has-sub'><a href='#'><span>Video</span></a>
-                     <ul>
-                        <li><a href='#'><span>Comercial video</span>
-                        <div id='check_posicion'><input type='checkbox' name="serviciosCuenta" id='' value='1'></div></a></li>
-                    </ul> 
-                        </li>
-                          <li class='has-sub'><a href='#'><span>Otros</span></a>
-                            <ul>
-                               <li><a href='#'><span>Redes sociales</span>
-                               <div id='check_posicion'><input type='checkbox' name="serviciosCuenta" id='' value='1'></div></a></li>
-                               <li><a href='#'><span>Mailing</span>
-                               <div id='check_posicion'><input type='checkbox' name="serviciosCuenta" id='' value='1'></div></a></li>
-                           </ul>
-                          </li>
-                      </ul>
-                 </div>
+                     </ul>
+                    </li>
+                </ul>
+           </div>
         </div>
         <div class="desborde"></div>
         
@@ -334,3 +413,6 @@
   <script type="text/javascript" src="js/backbone/vistas/VistaNuevoCliente.js"></script>
   <script type="text/javascript" src="js/backbone/modelos/ModeloCliente.js"></script>
   <script type="text/javascript" src="js/backbone/app.js"></script>
+
+<!-- plantillas -->
+  <script type="text/templates"></script>
