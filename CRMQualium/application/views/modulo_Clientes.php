@@ -1,11 +1,10 @@
 <div class="contenedor_modulo"> 
-<!-- <div id="contenedor"> -->
 	<section>
 		<h1 id="titulo_del_modulo"><label>Clientes</label></h1>
 		   <nav>
 				<ul id="menu_modulo" class="nav nav-pills">
 					<li>
-						<a href="">
+						<a href="modulo_consulta_prospectos">
 						<div class="icono_menu_modulo">
 						<span class="icon-contact"></span></div>
 						Prospectos

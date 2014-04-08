@@ -1,16 +1,14 @@
-<!-- <div id="contenedor"> -->
-<!-- prueba de sincronizacion git hub-->
 <div class="contenedor_modulo"> 
     <section>
         <h1 id="titulo_del_modulo"><label>Clientes</label></h1>
         <nav>
             <ul id="menu_modulo" class="nav nav-pills">
                 <li>
-                    <a href="">
+                    <a href="modulo_consulta_prospectos">
                       <div class="icono_menu_modulo">
                         <span class="icon-contact"></span>
                       </div>
-                      Prospectos
+                        Prospectos
                     </a>
                 </li>
                 <li>
@@ -54,6 +52,26 @@
             <!-- <input type="text" class="form-control" placeholder="Telefono movil"> -->
 
             <!-- Este es el pequeño formulario para registrar teléfonos -->
+<<<<<<< HEAD
+              <div class="btn-group btn-group-justified">
+                  <div id="div_telefonos" class="btn-group" >
+                      <input type="text" class="form-control" placeholder="Teléfono">
+                  </div>
+                  <div class="btn-group">
+                      <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">Tipo <span class="caret"></span></button>
+                      <ul class="dropdown-menu">
+                          <li><a href="#">Casa</a></li>
+                          <li><a href="#">Fax</a></li>
+                          <li><a href="#">Movil</a></li>
+                          <li><a href="#">Oficina</a></li>
+                          <li><a href="#">Personal</a></li>
+                          <li><a href="#">Trabajo</a></li>
+                          <li><a href="#">Otro</a></li>
+                      </ul>
+                  </div>
+                  <div class="btn-group">
+                      <button id="btn_otro_telefono" class="btn btn-default" type="button"><span class="icon-uniF476"></span></button>  
+=======
               <div>
                   <div class="input-group">
                       <div class="btn-group">
@@ -76,14 +94,20 @@
                       <div class="btn-group">
                           <div class="otroTelefono"><button type="button" class="btn btn-default"><span class="icon-uniF476"></span></button></div>
                       </div>
+>>>>>>> 253283784e69b0de1255fec3c86e6002c58999bf
                   </div>
               </div>
         </div>
 
 
         <div class="input_info">
+<<<<<<< HEAD
+            <select  class= "form-control" > 
+                <option value=""  name="myText" disabled selected style='display:none;'>Giro</option> 
+=======
             <select id="giro" class= "form-control" > 
                 <option value="" disabled style='display:none;'>Giro</option> 
+>>>>>>> 253283784e69b0de1255fec3c86e6002c58999bf
                 <option> Manufacturera </option> 
                 <option> Agropecuaria </option> 
                 <option selected> Comercial </option> 
@@ -313,19 +337,258 @@
               </ul> 
                   </li>
                     <li class='has-sub'><a href='#'><span>Otros</span></a>
+<<<<<<< HEAD
+=======
+                        <ul>
+                            <li><a href='#'><span>Redes sociales</span>
+                            <div id='check_posicion'><input type='checkbox' name="serviciosInteres" id='' value='1'></div></a></li>
+                            <li><a href='#'><span>Mailing</span>
+                            <div id='check_posicion'><input type='checkbox' name="serviciosInteres" id='' value='1'></div></a></li>
+                        </ul>
+                   </li>
+                  </ul>
+             </div>
+                  <div class='cssmenu'>
+                        <h5><b>Servicios con los que cuenta</b> </h5>
+                        <input type="text" id="ancho_input2" class="form-control" placeholder="Buscar servicio">
+                        <button type="button" id="btn_agregar2" class="btn btn-default">Agregar</button>
+                    <ul>
+<<<<<<< HEAD
+                        <li><a ><span>Servicios</span></a></li>
+                        <li class='has-sub'><a><span>Diseño Gráfico</span></a>
+                    <ul>
+                        <li><a><span>Tarjeta de presentación frente</span>
+                          <div id='check_posicion'><input type='checkbox' id='' value='1'></div></a></li>
+                        <li><a><span>Medallón</span>
+                          <div id='check_posicion'><input type='checkbox' id='' value='1'></div></a></li>
+                        <li><a><span>Tríptico</span>
+                          <div id='check_posicion'><input type='checkbox' id='' value='1'></div></a></li>
+                        <li><a><span>Díptico</span>
+                          <div id='check_posicion'><input type='checkbox' id='' value='1'></div></a></li>
+                        <li><a><span>Catálogo</span>
+                          <div id='check_posicion'><input type='checkbox' id='' value='1'></div></a></li>
+                        <li><a><span>Tarjeta de presentación frente y vuelta</span>
+                          <div id='check_posicion'><input type='checkbox' id='' value='1'></div></a></li>
+                        <li><a><span>Anuncio sencillo</span>
+                          <div id='check_posicion'><input type='checkbox' id='' value='1'></div></a></li>
+                        <li><a><span>Menú de restaurante</span>
+                          <div id='check_posicion'><input type='checkbox' id='' value='1'></div></a></li>
+                        <li><a><span>Branding completo</span>
+                          <div id='check_posicion'><input type='checkbox' id='' value='1'></div></a></li>
+                        <li><a><span>Logo animado</span>
+                          <div id='check_posicion'><input type='checkbox' id='' value='1'></div></a></li>
+                        <li><a><span>Vídeo branding</span>
+                          <div id='check_posicion'><input type='checkbox' id='' value='1'></div></a></li>
+                        <li><a><span>Campaña</span>
+                          <div id='check_posicion'><input type='checkbox' id='' value='1'></div></a></li>
+                        <li><a><span>Aplicaciones de campaña</span>
+                          <div id='check_posicion'><input type='checkbox' id='' value='1'></div></a></li>
+=======
+                        <li><a href=''><span>Servicios</span></a></li>
+                        <li class='has-sub'><a href='#'><span>Diseño Gráfico</span></a>
+>>>>>>> 2703a47f499b447c8315f0a09668d1c892dd4943
                       <ul>
                          <li><a href='#'><span>Redes sociales</span>
                          <div id='check_posicion'><input type='checkbox' name="serviciosCuenta" id='' value='1'></div></a></li>
                          <li><a href='#'><span>Mailing</span>
                          <div id='check_posicion'><input type='checkbox' name="serviciosCuenta" id='' value='1'></div></a></li>
+<<<<<<< HEAD
                      </ul>
                     </li>
                 </ul>
            </div>
+=======
+                         <li><a><span>Tríptico</span>
+                         <div id='check_posicion'><input type='checkbox' name="serviciosCuenta" id='' value='1'></div></a></li>
+                         <li><a><span>Díptico</span>
+                         <div id='check_posicion'><input type='checkbox' name="serviciosCuenta" id='' value='1'></div></a></li>
+                         <li><a><span>Catálogo</span>
+                         <div id='check_posicion'><input type='checkbox' name="serviciosCuenta" id='' value='1'></div></a></li>
+                         <li><a><span>Tarjeta de presentación frente y vuelta</span>
+                         <div id='check_posicion'><input type='checkbox' name="serviciosCuenta" id='' value='1'></div></a></li>
+                         <li><a><span>Anuncio sencillo</span>
+                         <div id='check_posicion'><input type='checkbox' name="serviciosCuenta" id='' value='1'></div></a></li>
+                         <li><a><span>Menú de restaurante</span>
+                         <div id='check_posicion'><input type='checkbox' name="serviciosCuenta" id='' value='1'></div></a></li>
+                         <li><a><span>Branding completo</span>
+                         <div id='check_posicion'><input type='checkbox' name="serviciosCuenta" id='' value='1'></div></a></li>
+                         <li><a><span>Logo animado</span>
+                         <div id='check_posicion'><input type='checkbox' name="serviciosCuenta" id='' value='1'></div></a></li>
+                         <li><a><span>Vídeo branding</span>
+                         <div id='check_posicion'><input type='checkbox' name="serviciosCuenta" id='' value='1'></div></a></li>
+                         <li><a><span>Campaña</span>
+                         <div id='check_posicion'><input type='checkbox' name="serviciosCuenta" id='' value='1'></div></a></li>
+                         <li><a><span>Aplicaciones de campaña</span>
+                         <div id='check_posicion'><input type='checkbox' name="serviciosCuenta" id='' value='1'></div></a></li>
+>>>>>>> 253283784e69b0de1255fec3c86e6002c58999bf
+                    </ul>
+                </li>
+                  <li class='has-sub'><a href='#'><span>Programación</span></a>
+                     <ul>
+                        <li><a href='#'><span>Página web sencilla</span>
+                        <div id='check_posicion'><input type='checkbox' name="serviciosCuenta" id='' value='1'></div></a></li>
+                        <li><a href='#'><span>Página Web complicada
+                        (Mas de 5 secciones)</span>
+                        <div id='check_posicion'><input type='checkbox' name="serviciosCuenta" id='' value='1'></div></a></li>
+                        <li><a href='#'><span>Página Web con sistema interno</span>
+                        <div id='check_posicion'><input type='checkbox' name="serviciosCuenta" id='' value='1'></div></a></li>
+                        <li><a href='#'><span>App sencilla</span>
+                        <div id='check_posicion'><input type='checkbox' name="serviciosCuenta" id='' value='1'></div></a></li>
+                        <li><a href='#'><span>App complicada</span>
+                        <div id='check_posicion'><input type='checkbox' name="serviciosCuenta" id='' value='1'></div></a></li>
+                        <li><a href='#'><span>Sistema de ventas</span>
+                        <div id='check_posicion'><input type='checkbox' name="serviciosCuenta" id='' value='1'></div></a></li>
+                        <li><a href='#'><span>Rediseño página web</span>
+                        <div id='check_posicion'><input type='checkbox' name="serviciosCuenta" id='' value='1'></div></a></li>
+                    </ul>
+                  </li>
+                    <li class='has-sub'><a href='#'><span>Video</span></a>
+                     <ul>
+                        <li><a href='#'><span>Comercial video</span>
+                        <div id='check_posicion'><input type='checkbox' name="serviciosCuenta" id='' value='1'></div></a></li>
+                    </ul> 
+                        </li>
+<<<<<<< HEAD
+                          <li class='has-sub'><a><span>Programación</span></a>
+                            <ul>
+                                <li><a><span>Página web sencilla</span>
+                                <div id='check_posicion'><input type='checkbox' id='' value='1'></div></a></li>
+                                <li><a><span>Página Web complicada
+                                (Mas de 5 secciones)</span>
+                                <div id='check_posicion'><input type='checkbox' id='' value='1'></div></a></li>
+                                <li><a><span>Página Web con sistema interno</span>
+                                <div id='check_posicion'><input type='checkbox' id='' value='1'></div></a></li>
+                                <li><a><span>App sencilla</span>
+                                <div id='check_posicion'><input type='checkbox' id='' value='1'></div></a></li>
+                                <li><a><span>App complicada</span>
+                                <div id='check_posicion'><input type='checkbox' id='' value='1'></div></a></li>
+                                <li><a><span>Sistema de ventas</span>
+                                <div id='check_posicion'><input type='checkbox' id='' value='1'></div></a></li>
+                                <li><a><span>Rediseño página web</span>
+                                <div id='check_posicion'><input type='checkbox' id='' value='1'></div></a></li>
+                            </ul>
+                          </li>
+                          <li class='has-sub'><a><span>Video</span></a>
+                              <ul>
+                                  <li><a><span>Comercial video</span>
+                                  <div id='check_posicion'><input type='checkbox' id='' value='1'></div></a></li>
+                              </ul>
+                          </li>
+                          <li class='has-sub'><a><span>Otros</span></a>
+                              <ul>
+                                  <li><a><span>Redes sociales</span>
+                                  <div id='check_posicion'><input type='checkbox' id='' value='1'></div></a></li>
+                                  <li><a><span>Mailing</span>
+                                  <div id='check_posicion'><input type='checkbox' id='' value='1'></div></a></li>
+                              </ul>
+                         </li>
+                        </ul>
+                   </div>
+                        <div class='cssmenu'>
+                              <h5><b>Servicios con los que cuenta</b> </h5>
+                              <input type="text" id="ancho_input2" class="form-control" placeholder="Buscar servicio">
+                              <button type="button" id="btn_agregar2" class="btn btn-default">Agregar</button>
+                          <ul>
+                              <li><a href=''><span>Servicios</span></a></li>
+                              <li class='has-sub'><a><span>Diseño Gráfico</span></a>
+                            <ul>
+                               <li><a ><span>Tarjeta de presentación frente</span>
+                               <div id='check_posicion'><input type='checkbox' id='' value='1'></div></a></li>
+                               <li><a><span>Medallón</span>
+                               <div id='check_posicion'><input type='checkbox' id='' value='1'></div></a></li>
+                               <li><a><span>Tríptico</span>
+                               <div id='check_posicion'><input type='checkbox' id='' value='1'></div></a></li>
+                               <li><a><span>Díptico</span>
+                               <div id='check_posicion'><input type='checkbox' id='' value='1'></div></a></li>
+                               <li><a><span>Catálogo</span>
+                               <div id='check_posicion'><input type='checkbox' id='' value='1'></div></a></li>
+                               <li><a><span>Tarjeta de presentación frente y vuelta</span>
+                               <div id='check_posicion'><input type='checkbox' id='' value='1'></div></a></li>
+                               <li><a><span>Anuncio sencillo</span>
+                               <div id='check_posicion'><input type='checkbox' id='' value='1'></div></a></li>
+                               <li><a><span>Menú de restaurante</span>
+                               <div id='check_posicion'><input type='checkbox' id='' value='1'></div></a></li>
+                               <li><a><span>Branding completo</span>
+                               <div id='check_posicion'><input type='checkbox' id='' value='1'></div></a></li>
+                               <li><a><span>Logo animado</span>
+                               <div id='check_posicion'><input type='checkbox' id='' value='1'></div></a></li>
+                               <li><a><span>Vídeo branding</span>
+                               <div id='check_posicion'><input type='checkbox' id='' value='1'></div></a></li>
+                               <li><a><span>Campaña</span>
+                               <div id='check_posicion'><input type='checkbox' id='' value='1'></div></a></li>
+                               <li><a><span>Aplicaciones de campaña</span>
+                               <div id='check_posicion'><input type='checkbox' id='' value='1'></div></a></li>
+                          </ul>
+                      </li>
+                        <li class='has-sub'><a><span>Programación</span></a>
+                           <ul>
+                              <li><a><span>Página web sencilla</span>
+                              <div id='check_posicion'><input type='checkbox' id='' value='1'></div></a></li>
+                              <li><a><span>Página Web complicada
+                              (Mas de 5 secciones)</span>
+                              <div id='check_posicion'><input type='checkbox' id='' value='1'></div></a></li>
+                              <li><a><span>Página Web con sistema interno</span>
+                              <div id='check_posicion'><input type='checkbox' id='' value='1'></div></a></li>
+                              <li><a><span>App sencilla</span>
+                              <div id='check_posicion'><input type='checkbox' id='' value='1'></div></a></li>
+                              <li><a><span>App complicada</span>
+                              <div id='check_posicion'><input type='checkbox' id='' value='1'></div></a></li>
+                              <li><a><span>Sistema de ventas</span>
+                              <div id='check_posicion'><input type='checkbox' id='' value='1'></div></a></li>
+                              <li><a><span>Rediseño página web</span>
+                              <div id='check_posicion'><input type='checkbox' id='' value='1'></div></a></li>
+                          </ul>
+                        </li>
+                          <li class='has-sub'><a><span>Video</span></a>
+                           <ul>
+                              <li><a><span>Comercial video</span>
+                              <div id='check_posicion'><input type='checkbox' id='' value='1'></div></a></li>
+                          </ul> 
+                              </li>
+                                <li class='has-sub'><a><span>Otros</span></a>
+                                  <ul>
+                                     <li><a><span>Redes sociales</span>
+                                     <div id='check_posicion'><input type='checkbox' id='' value='1'></div></a></li>
+                                     <li><a><span>Mailing</span>
+                                     <div id='check_posicion'><input type='checkbox' id='' value='1'></div></a></li>
+                                 </ul>
+                                </li>
+                            </ul>
+                       </div>
+              </div>
+              <div class="desborde"></div>
+              
+              <div>
+                  <label for="exampleInputFile"><h5>Adjuntar archivo</h5></label>
+                  <input type="file" id="exampleInputFile">
+                  <textarea  class="form-control" rows="6" placeholder="Comentarios"></textarea>
+              </div>
+              <br>
+              
+              <div class="dato_contacto">
+                  <h3>Datos Específicos</h3>
+                  <hr width="300px";>
+                  <input type="text"  class="form-control" placeholder="RFC">
+                  <input type="text"  class="form-control" placeholder="Representante">
+                  <input type="text"  class="form-control" placeholder="Página web">
+              </div>
+=======
+                          <li class='has-sub'><a href='#'><span>Otros</span></a>
+                            <ul>
+                               <li><a href='#'><span>Redes sociales</span>
+                               <div id='check_posicion'><input type='checkbox' name="serviciosCuenta" id='' value='1'></div></a></li>
+                               <li><a href='#'><span>Mailing</span>
+                               <div id='check_posicion'><input type='checkbox' name="serviciosCuenta" id='' value='1'></div></a></li>
+                           </ul>
+                          </li>
+                      </ul>
+                 </div>
+>>>>>>> 2703a47f499b447c8315f0a09668d1c892dd4943
         </div>
         <div class="desborde"></div>
         
         <br>
+>>>>>>> 253283784e69b0de1255fec3c86e6002c58999bf
 
         <div>
             <h5><b>Adjuntar archivo</b></h5>
@@ -414,5 +677,11 @@
   <script type="text/javascript" src="js/backbone/modelos/ModeloCliente.js"></script>
   <script type="text/javascript" src="js/backbone/app.js"></script>
 
+<<<<<<< HEAD
 <!-- plantillas -->
   <script type="text/templates"></script>
+=======
+<script type="text/javascript">
+createEditableSelect(document.forms[0].myText);
+</script>
+>>>>>>> 2703a47f499b447c8315f0a09668d1c892dd4943

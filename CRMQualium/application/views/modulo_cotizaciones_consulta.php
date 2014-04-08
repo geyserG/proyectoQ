@@ -189,8 +189,8 @@
 				</tr>
 			</table>
 			<button type="button" class="btn btn-default">Eliminar varios</button>
-			<button type="button" class="btn btn-default">Marcar todos</button>
-			<button type="button" class="btn btn-default">Desmarcar todos</button>
+			<!-- <button type="button" class="btn btn-default">Marcar todos</button> -->
+			<!-- <button type="button" class="btn btn-default">Desmarcar todos</button> -->
 	</section>
 </div>
 
