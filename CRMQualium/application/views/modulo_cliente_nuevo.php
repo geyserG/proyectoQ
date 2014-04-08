@@ -1,16 +1,14 @@
-<!-- <div id="contenedor"> -->
-<!-- prueba de sincronizacion git hub-->
 <div class="contenedor_modulo"> 
     <section>
         <h1 id="titulo_del_modulo"><label>Clientes</label></h1>
         <nav>
             <ul id="menu_modulo" class="nav nav-pills">
                 <li>
-                    <a href="">
+                    <a href="modulo_consulta_prospectos">
                       <div class="icono_menu_modulo">
                         <span class="icon-contact"></span>
                       </div>
-                      Prospectos
+                        Prospectos
                     </a>
                 </li>
                 <li>
@@ -55,11 +53,11 @@
 
             <!-- Este es el pequeño formulario para registrar teléfonos -->
               <div class="btn-group btn-group-justified">
-                  <div id="div_telefonos" class="btn-group">
-                      <input type="text" class="form-control">
+                  <div id="div_telefonos" class="btn-group" >
+                      <input type="text" class="form-control" placeholder="Teléfono">
                   </div>
                   <div class="btn-group">
-                      <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">Action <span class="caret"></span></button>
+                      <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">Tipo <span class="caret"></span></button>
                       <ul class="dropdown-menu">
                           <li><a href="#">Casa</a></li>
                           <li><a href="#">Fax</a></li>
@@ -80,7 +78,7 @@
 
         <div class="input_info">
             <select  class= "form-control" > 
-                <option value="" disabled selected style='display:none;'>Giro</option> 
+                <option value=""  name="myText" disabled selected style='display:none;'>Giro</option> 
                 <option> Manufacturera </option> 
                 <option> Agropecuaria </option> 
                 <option> Comercial </option> 
@@ -101,10 +99,10 @@
                         <input type="text" id="ancho_input1" class="form-control" placeholder="Buscar servicio">
                         <button type="button" id="btn_agregar"class="btn btn-default">Agregar</button>
                     <ul>
-                        <li><a href=''><span>Servicios</span></a></li>
-                        <li class='has-sub'><a href='#'><span>Diseño Gráfico</span></a>
+                        <li><a ><span>Servicios</span></a></li>
+                        <li class='has-sub'><a><span>Diseño Gráfico</span></a>
                     <ul>
-                        <li><a ><span>Tarjeta de presentación frente</span>
+                        <li><a><span>Tarjeta de presentación frente</span>
                           <div id='check_posicion'><input type='checkbox' id='' value='1'></div></a></li>
                         <li><a><span>Medallón</span>
                           <div id='check_posicion'><input type='checkbox' id='' value='1'></div></a></li>
@@ -132,36 +130,36 @@
                           <div id='check_posicion'><input type='checkbox' id='' value='1'></div></a></li>
                     </ul>
                         </li>
-                          <li class='has-sub'><a href='#'><span>Programación</span></a>
+                          <li class='has-sub'><a><span>Programación</span></a>
                             <ul>
-                                <li><a href='#'><span>Página web sencilla</span>
+                                <li><a><span>Página web sencilla</span>
                                 <div id='check_posicion'><input type='checkbox' id='' value='1'></div></a></li>
-                                <li><a href='#'><span>Página Web complicada
+                                <li><a><span>Página Web complicada
                                 (Mas de 5 secciones)</span>
                                 <div id='check_posicion'><input type='checkbox' id='' value='1'></div></a></li>
-                                <li><a href='#'><span>Página Web con sistema interno</span>
+                                <li><a><span>Página Web con sistema interno</span>
                                 <div id='check_posicion'><input type='checkbox' id='' value='1'></div></a></li>
-                                <li><a href='#'><span>App sencilla</span>
+                                <li><a><span>App sencilla</span>
                                 <div id='check_posicion'><input type='checkbox' id='' value='1'></div></a></li>
-                                <li><a href='#'><span>App complicada</span>
+                                <li><a><span>App complicada</span>
                                 <div id='check_posicion'><input type='checkbox' id='' value='1'></div></a></li>
-                                <li><a href='#'><span>Sistema de ventas</span>
+                                <li><a><span>Sistema de ventas</span>
                                 <div id='check_posicion'><input type='checkbox' id='' value='1'></div></a></li>
-                                <li><a href='#'><span>Rediseño página web</span>
+                                <li><a><span>Rediseño página web</span>
                                 <div id='check_posicion'><input type='checkbox' id='' value='1'></div></a></li>
                             </ul>
                           </li>
-                          <li class='has-sub'><a href='#'><span>Video</span></a>
+                          <li class='has-sub'><a><span>Video</span></a>
                               <ul>
-                                  <li><a href='#'><span>Comercial video</span>
+                                  <li><a><span>Comercial video</span>
                                   <div id='check_posicion'><input type='checkbox' id='' value='1'></div></a></li>
                               </ul>
                           </li>
-                          <li class='has-sub'><a href='#'><span>Otros</span></a>
+                          <li class='has-sub'><a><span>Otros</span></a>
                               <ul>
-                                  <li><a href='#'><span>Redes sociales</span>
+                                  <li><a><span>Redes sociales</span>
                                   <div id='check_posicion'><input type='checkbox' id='' value='1'></div></a></li>
-                                  <li><a href='#'><span>Mailing</span>
+                                  <li><a><span>Mailing</span>
                                   <div id='check_posicion'><input type='checkbox' id='' value='1'></div></a></li>
                               </ul>
                          </li>
@@ -173,7 +171,7 @@
                               <button type="button" id="btn_agregar2" class="btn btn-default">Agregar</button>
                           <ul>
                               <li><a href=''><span>Servicios</span></a></li>
-                              <li class='has-sub'><a href='#'><span>Diseño Gráfico</span></a>
+                              <li class='has-sub'><a><span>Diseño Gráfico</span></a>
                             <ul>
                                <li><a ><span>Tarjeta de presentación frente</span>
                                <div id='check_posicion'><input type='checkbox' id='' value='1'></div></a></li>
@@ -203,36 +201,36 @@
                                <div id='check_posicion'><input type='checkbox' id='' value='1'></div></a></li>
                           </ul>
                       </li>
-                        <li class='has-sub'><a href='#'><span>Programación</span></a>
+                        <li class='has-sub'><a><span>Programación</span></a>
                            <ul>
-                              <li><a href='#'><span>Página web sencilla</span>
+                              <li><a><span>Página web sencilla</span>
                               <div id='check_posicion'><input type='checkbox' id='' value='1'></div></a></li>
-                              <li><a href='#'><span>Página Web complicada
+                              <li><a><span>Página Web complicada
                               (Mas de 5 secciones)</span>
                               <div id='check_posicion'><input type='checkbox' id='' value='1'></div></a></li>
-                              <li><a href='#'><span>Página Web con sistema interno</span>
+                              <li><a><span>Página Web con sistema interno</span>
                               <div id='check_posicion'><input type='checkbox' id='' value='1'></div></a></li>
-                              <li><a href='#'><span>App sencilla</span>
+                              <li><a><span>App sencilla</span>
                               <div id='check_posicion'><input type='checkbox' id='' value='1'></div></a></li>
-                              <li><a href='#'><span>App complicada</span>
+                              <li><a><span>App complicada</span>
                               <div id='check_posicion'><input type='checkbox' id='' value='1'></div></a></li>
-                              <li><a href='#'><span>Sistema de ventas</span>
+                              <li><a><span>Sistema de ventas</span>
                               <div id='check_posicion'><input type='checkbox' id='' value='1'></div></a></li>
-                              <li><a href='#'><span>Rediseño página web</span>
+                              <li><a><span>Rediseño página web</span>
                               <div id='check_posicion'><input type='checkbox' id='' value='1'></div></a></li>
                           </ul>
                         </li>
-                          <li class='has-sub'><a href='#'><span>Video</span></a>
+                          <li class='has-sub'><a><span>Video</span></a>
                            <ul>
-                              <li><a href='#'><span>Comercial video</span>
+                              <li><a><span>Comercial video</span>
                               <div id='check_posicion'><input type='checkbox' id='' value='1'></div></a></li>
                           </ul> 
                               </li>
-                                <li class='has-sub'><a href='#'><span>Otros</span></a>
+                                <li class='has-sub'><a><span>Otros</span></a>
                                   <ul>
-                                     <li><a href='#'><span>Redes sociales</span>
+                                     <li><a><span>Redes sociales</span>
                                      <div id='check_posicion'><input type='checkbox' id='' value='1'></div></a></li>
-                                     <li><a href='#'><span>Mailing</span>
+                                     <li><a><span>Mailing</span>
                                      <div id='check_posicion'><input type='checkbox' id='' value='1'></div></a></li>
                                  </ul>
                                 </li>
@@ -279,3 +277,7 @@
 <!--MV*-->
   <script type="text/javascript" src="js/backbone/vistas/VistaNuevoCliente.js"></script>
   <script type="text/javascript" src="js/backbone/app.js"></script>
+
+<script type="text/javascript">
+createEditableSelect(document.forms[0].myText);
+</script>
